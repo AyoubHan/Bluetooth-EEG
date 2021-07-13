@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47E0F26E269E1B2600F331F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0F26D269E1B2600F331F5 /* AppDelegate.swift */; };
+		47E0F270269E1B2600F331F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0F26F269E1B2600F331F5 /* SceneDelegate.swift */; };
+		47E0F272269E1B2600F331F5 /* EEGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0F271269E1B2600F331F5 /* EEGViewController.swift */; };
+		47E0F275269E1B2600F331F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E0F273269E1B2600F331F5 /* Main.storyboard */; };
+		47E0F277269E1B2A00F331F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E0F276269E1B2A00F331F5 /* Assets.xcassets */; };
+		47E0F27A269E1B2A00F331F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E0F278269E1B2A00F331F5 /* LaunchScreen.storyboard */; };
+		47E0F282269E21B000F331F5 /* TransferService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E0F281269E21B000F331F5 /* TransferService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47E0F26A269E1B2600F331F5 /* Bluetooth-EEG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth-EEG.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47E0F26D269E1B2600F331F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47E0F26F269E1B2600F331F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		47E0F271269E1B2600F331F5 /* EEGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EEGViewController.swift; sourceTree = "<group>"; };
+		47E0F274269E1B2600F331F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47E0F276269E1B2A00F331F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47E0F279269E1B2A00F331F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47E0F27B269E1B2A00F331F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E0F281269E21B000F331F5 /* TransferService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47E0F267269E1B2600F331F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47E0F261269E1B2600F331F5 = {
+			isa = PBXGroup;
+			children = (
+				47E0F26C269E1B2600F331F5 /* Bluetooth-EEG */,
+				47E0F26B269E1B2600F331F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47E0F26B269E1B2600F331F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47E0F26A269E1B2600F331F5 /* Bluetooth-EEG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47E0F26C269E1B2600F331F5 /* Bluetooth-EEG */ = {
+			isa = PBXGroup;
+			children = (
+				47E0F26D269E1B2600F331F5 /* AppDelegate.swift */,
+				47E0F26F269E1B2600F331F5 /* SceneDelegate.swift */,
+				47E0F281269E21B000F331F5 /* TransferService.swift */,
+				47E0F271269E1B2600F331F5 /* EEGViewController.swift */,
+				47E0F273269E1B2600F331F5 /* Main.storyboard */,
+				47E0F276269E1B2A00F331F5 /* Assets.xcassets */,
+				47E0F278269E1B2A00F331F5 /* LaunchScreen.storyboard */,
+				47E0F27B269E1B2A00F331F5 /* Info.plist */,
+			);
+			path = "Bluetooth-EEG";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47E0F269269E1B2600F331F5 /* Bluetooth-EEG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47E0F27E269E1B2A00F331F5 /* Build configuration list for PBXNativeTarget "Bluetooth-EEG" */;
+			buildPhases = (
+				47E0F266269E1B2600F331F5 /* Sources */,
+				47E0F267269E1B2600F331F5 /* Frameworks */,
+				47E0F268269E1B2600F331F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bluetooth-EEG";
+			productName = "Bluetooth-EEG";
+			productReference = 47E0F26A269E1B2600F331F5 /* Bluetooth-EEG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47E0F262269E1B2600F331F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					47E0F269269E1B2600F331F5 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 47E0F265269E1B2600F331F5 /* Build configuration list for PBXProject "Bluetooth-EEG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47E0F261269E1B2600F331F5;
+			productRefGroup = 47E0F26B269E1B2600F331F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47E0F269269E1B2600F331F5 /* Bluetooth-EEG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47E0F268269E1B2600F331F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E0F27A269E1B2A00F331F5 /* LaunchScreen.storyboard in Resources */,
+				47E0F277269E1B2A00F331F5 /* Assets.xcassets in Resources */,
+				47E0F275269E1B2600F331F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47E0F266269E1B2600F331F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E0F272269E1B2600F331F5 /* EEGViewController.swift in Sources */,
+				47E0F26E269E1B2600F331F5 /* AppDelegate.swift in Sources */,
+				47E0F282269E21B000F331F5 /* TransferService.swift in Sources */,
+				47E0F270269E1B2600F331F5 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		47E0F273269E1B2600F331F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E0F274269E1B2600F331F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47E0F278269E1B2A00F331F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47E0F279269E1B2A00F331F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47E0F27C269E1B2A00F331F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47E0F27D269E1B2A00F331F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47E0F27F269E1B2A00F331F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 747B9YDG8V;
+				INFOPLIST_FILE = "Bluetooth-EEG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayoubhan.Bluetooth-EEG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47E0F280269E1B2A00F331F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 747B9YDG8V;
+				INFOPLIST_FILE = "Bluetooth-EEG/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayoubhan.Bluetooth-EEG";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47E0F265269E1B2600F331F5 /* Build configuration list for PBXProject "Bluetooth-EEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E0F27C269E1B2A00F331F5 /* Debug */,
+				47E0F27D269E1B2A00F331F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47E0F27E269E1B2A00F331F5 /* Build configuration list for PBXNativeTarget "Bluetooth-EEG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47E0F27F269E1B2A00F331F5 /* Debug */,
+				47E0F280269E1B2A00F331F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47E0F262269E1B2600F331F5 /* Project object */;
+}
